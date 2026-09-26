@@ -122,7 +122,7 @@ modules:
         sha256: 94d8eba069e8f387d7f9d307eb49325997ad237bc13681cb5ccfc2fb455e396f
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/net.qcde.QCDE.metainfo.xml
-        sha256: b7e2ffc636fa546a8511a42d896f4696a6ebdecf40219205fb03770732dd111a
+        sha256: 336c4ad1691e538970447fd78105e4c774983540e9a8a6413c40e7483ab0e32a
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/net.qcde.QCDE.128.png
         sha256: f443dbca599774c86a741eab318a7582b21c9a004326da02c3d988431bea58a6
