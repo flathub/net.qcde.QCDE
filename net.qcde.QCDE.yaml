@@ -77,7 +77,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/IgeNiaI/Q-Zandronum.git
-        commit: d663768f06ea5e3f240a111d36751a6b89f5c1ec
+        commit: 7a3145a58ad13df35739684ea4734a0db0d3c86f
         disable-shallow-clone: true
       - type: archive
         url: https://www.sqlite.org/2017/sqlite-autoconf-3180000.tar.gz
@@ -91,13 +91,13 @@ modules:
       # copy game files
       - install -D Q-Zandronum/freedoom2.wad /app/share/games/doom/freedoom2.wad
       - install -D Q-Zandronum/wads/QCDE_Launcher.pk3 /app/share/games/qcde/QCDE_Launcher.pk3
-      - install -D Q-Zandronum/wads/QCDEmaps3.0.pk3 /app/share/games/qcde/wads/QCDEmaps3.0.pk3
+      - install -D Q-Zandronum/wads/QCDEmaps3.1_beta_3.pk3 /app/share/games/qcde/wads/QCDEmaps3.1_beta_3.pk3
       - install -D Q-Zandronum/wads/QCDEmus3.0.pk3 /app/share/games/qcde/wads/QCDEmus3.0.pk3
-      - install -D Q-Zandronum/wads/QCDEmus_UT_v3.1_beta_1.pk3 /app/share/games/qcde/wads/QCDEmus_UT_v3.1_beta_1.pk3
+      - install -D Q-Zandronum/wads/QCDEmus_UT_v3.1_beta_3.pk3 /app/share/games/qcde/wads/QCDEmus_UT_v3.1_beta_3.pk3
       - install -D Q-Zandronum/wads/QCDE_PvPvisibility.pk3 /app/share/games/qcde/wads/QCDE_PvPvisibility.pk3
-      - install -D Q-Zandronum/wads/QCDE_UT_Movement_v3.1_beta_2.pk3 /app/share/games/qcde/wads/QCDE_UT_Movement_v3.1_beta_2.pk3
-      - install -D Q-Zandronum/wads/QCDE_UT_Weapons_v3.1_beta_1.pk3 /app/share/games/qcde/wads/QCDE_UT_Weapons_v3.1_beta_1.pk3
-      - install -D Q-Zandronum/wads/QCDEv3.1_beta_2.pk3 /app/share/games/qcde/wads/QCDEv3.1_beta_2.pk3
+      - install -D Q-Zandronum/wads/QCDE_UT_Movement_v3.1_beta_3.pk3 /app/share/games/qcde/wads/QCDE_UT_Movement_v3.1_beta_3.pk3
+      - install -D Q-Zandronum/wads/QCDE_UT_Weapons_v3.1_beta_3.pk3 /app/share/games/qcde/wads/QCDE_UT_Weapons_v3.1_beta_3.pk3
+      - install -D Q-Zandronum/wads/QCDEv3.1_beta_3.pk3 /app/share/games/qcde/wads/QCDEv3.1_beta_3.pk3
       # copy launcher scripts, desktop entries, metainfo, icon and license
       - install -Dm 744 qcde_mp.sh /app/bin/qcde_mp.sh
       - install -Dm 744 qcde_sp.sh /app/bin/qcde_sp.sh
@@ -114,7 +114,7 @@ modules:
       - type: file
         dest-filename: qcde_current.tar.gz
         url: https://qzandronum.com/builds/download/qcde/Linux%20amd64/
-        sha256: 92b8f3a777fba827ccf26ee2ba5b49ba331061089a6606294c6b93a6ba535b4a
+        sha256: 97f9355c00536f0671166287f1ca7ad4d0da7fd14b7db736bf276d389211b738
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/DesktopEntries/net.qcde.QCDE.desktop
         sha256: 8823125ed7b90c33fe5c35b6853e2e1e0b71751d5081f536ba338158e7c4434e
@@ -123,10 +123,10 @@ modules:
         sha256: 94d8eba069e8f387d7f9d307eb49325997ad237bc13681cb5ccfc2fb455e396f
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/net.qcde.QCDE.metainfo.xml
-        sha256: 336c4ad1691e538970447fd78105e4c774983540e9a8a6413c40e7483ab0e32a
+        sha256: 7f8af4473388d12b08f7ca383c4d91362777872b708825c9ef9ee656fa803643
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/net.qcde.QCDE.128.png
-        sha256: f443dbca599774c86a741eab318a7582b21c9a004326da02c3d988431bea58a6
+        sha256: c5884be4042404cf44834f3bd4dade1c41280366800ccd8c84c0e9fd4973f846
       - type: file
         url: https://raw.githubusercontent.com/IgeNiaI/QCDE/refs/heads/master/AppResources/Flatpak/DefaultSettings/Doomseeker/doomseeker.ini
         sha256: c2dc686cb45b792d03ae5713686d1f096184b21e68878f3376927b5dfd3ad683
